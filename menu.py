@@ -218,12 +218,14 @@ while place_order:
             # 2. Ask customer to input menu item number
             menu_item_number = int(input("Please enter the menu item number: "))
             # Display menu items (assuming you have a menu list with item numbers)
-menu = {
-    1: "Meals",
-    2: "Snacks",
-    3: "Drinks",
-    4: "Dessert"
-}
+menu = {}            
+item_number = 1
+for category, items in menu.items():
+    print(f"\n{category}:")
+    for item, price in items.items():
+        print(f"{item_number}. {item} - ${price:.2f}")
+        item_number += 1
+
 
 # Print the menu to show options
 print("Menu:")
