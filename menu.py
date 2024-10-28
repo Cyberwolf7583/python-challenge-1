@@ -115,7 +115,7 @@ for item in order:
     total += item['Price'] * item['Quantity']
 
 print(f"\nTotal: ${total:.2f}")
-
+### Tried to create multiple reiderations of the code to display multiple ways to run this module 
 # 1. Set up order list. Order list will store a list of dictionaries for
 # menu item name, item price, and quantity orderedS
 menu = {'snacks': [.99, .69, .49, 1.99],
@@ -312,6 +312,8 @@ while True:
     print(f"Thank you, your age is {age}.")
 else:
     
+   ### Here for this pseudo code I tried to incorperate them in my first sytax model above\
+            
                 
                 # Keep ordering
 
@@ -335,6 +337,8 @@ else:
 print("Item name                 | Price  | Quantity")
 print("--------------------------|--------|----------")
 
+#### I also used #6--#11 pseudo code steps in my second model for display\
+   # purposes ####   
 # 6. Loop through the items in the customer's order
 
     # 7. Store the dictionary items as variables
